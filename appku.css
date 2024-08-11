@@ -4,16 +4,39 @@ body{
     background-color: #4674B1;
 }
 
+.navbar-my-brand {
+    color: #F7F4E4;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #F7F4E4; /* Warna font untuk tautan */
+    font-family: Poppins, sans-serif;
+    font-size: 16px; /* Ukuran font untuk tautan */
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: #5B93D0; /* Warna background navbar */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3; /* Warna font saat hover */
+}
+
 .paragraph-style-1 {
     color: #F7F4E4;
     font-size: 32px;
     font-family: Poppins, sans-serif;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .paragraph-style-2 {
     color: #F7F4E4;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Poppins, sans-serif;
 }
 
@@ -33,7 +56,7 @@ body{
 
 .btn-cv{
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #83AAEB;
     color: #F7F4E4; /* Mengubah warna teks */
     border: none; /* Menghilangkan border */
