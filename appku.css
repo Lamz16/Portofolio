@@ -135,11 +135,6 @@ body{
     justify-content: center;
     padding-top: 15%;
 }
-.btn-certif-format{
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-}
 .sub-sertif-format{
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
