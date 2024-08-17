@@ -141,3 +141,64 @@ body{
     font-weight: 600;
     color: #F7F4E4;
 }
+
+.typing {
+    color: #F7F4E4;
+    font-size: 32px;
+    font-family: Poppins, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    width: 22ch;
+    animation: typing 5s steps(22) 0.25s 1 normal both, blink 0.75s step-end 5s 1 normal both;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 22ch; }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: #F7F4E4; }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-down {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes jackInTheBox {
+    from {
+        opacity: 0;
+        transform: scale(0.1) rotate(30deg);
+        transform-origin: center bottom;
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    70% {
+        transform: rotate(3deg);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+}
+
+.jack-in-the-box {
+    display: inline-block;
+    animation: jackInTheBox 1s ease-in-out;
+}
+
+
