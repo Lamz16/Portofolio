@@ -8,17 +8,17 @@ body{
     background: #5B93D0;
     color: #F7F4E4;
     font-family: Poppins, sans-serif;
-    font-size: 24px; /* Ukuran font */
-    font-weight: 600; /* Semibold */
+    font-size: 24px;
+    font-weight: 600;
     margin-top: 10px;
-    padding: 0.5rem 1rem; /* Padding untuk memberikan ruang di sekitar teks */
-    border-radius: 20px; /* Sudut melengkung pada frame */
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
 }
 
 .navbar-nav .nav-link {
-    color: #F7F4E4; /* Warna font untuk tautan */
+    color: #F7F4E4;
     font-family: Poppins, sans-serif;
-    font-size: 16px; /* Ukuran font untuk tautan */
+    font-size: 16px;
     font-weight: 600;
 
 }
@@ -32,11 +32,11 @@ body{
 
 
 .navbar {
-    background-color: transparent; /* Warna background navbar #5B93D0*/
+    background-color: transparent;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #0056b3; /* Warna font saat hover */
+    color: #0056b3;
 }
 
 .paragraph-style-1 {
@@ -199,6 +199,22 @@ body{
 .jack-in-the-box {
     display: inline-block;
     animation: jackInTheBox 1s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in-left {
+    display: inline-block;
+    animation: fadeInLeft 3s ease-in-out;
 }
 
 
